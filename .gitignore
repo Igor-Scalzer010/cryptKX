@@ -1,0 +1,23 @@
+# Ignore build artifacts
+build/
+dist/
+build-*/
+tmp/
+.agents/
+.qt/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+cryptKX Project.pdf
+
+# Ignore log files and user-specific files
+*.user
+*.log
+
+# Ignore
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+tmp/
