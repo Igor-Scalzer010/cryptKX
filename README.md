@@ -1,3 +1,6 @@
+![C++](https://img.shields.io/badge/c++-%236f42c1.svg?style=flat&logo=c%2B%2B&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=flat&logo=cmake&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4OCA4OCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMTIuNCAzNiA3LjV2MzQuOEgwVjEyLjR6bTQwLTUuNUw4OCAwdjQyLjNINDBWNi45ek0wIDQ2LjNoMzZ2MzQuOEwwIDc2LjJWNDYuM3ptNDAgMGg0OFY4OGwtNDgtNi43di0zNXoiLz48L3N2Zz4%3D)
+
+
 # cryptKX
 
 cryptKX is a small desktop password generator built with C++20, Qt 6/QML, and libsodium.
