@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">cryptKX app icon</title>
+  <desc id="desc">A dark rounded-square icon with a glowing cryptographic shield, circuit traces, and a KX monogram lock.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="44" y1="28" x2="468" y2="488" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0C1A2E"/>
+      <stop offset="0.52" stop-color="#08111F"/>
+      <stop offset="1" stop-color="#050913"/>
+    </linearGradient>
+    <linearGradient id="shieldGradient" x1="132" y1="78" x2="382" y2="412" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="0.48" stop-color="#18F2B2"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="innerGradient" x1="176" y1="134" x2="336" y2="356" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EAFBFF"/>
+      <stop offset="1" stop-color="#9BEAFE"/>
+    </linearGradient>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.00 0 0 0 0 0.82 0 0 0 0 1.00 0 0 0 0.45 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#17304A" stroke-width="1" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bgGradient)"/>
+  <rect width="512" height="512" rx="112" fill="url(#grid)" opacity="0.55"/>
+
+  <g opacity="0.72" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M94 150h62m-22 0v62m-40 150h74m-34 0v-58m284-156h-72m30 0v68m44 146h-78m34 0v-62" stroke="#00E5FF" stroke-width="10"/>
+    <circle cx="94" cy="150" r="12" fill="#00E5FF"/>
+    <circle cx="94" cy="362" r="12" fill="#18F2B2"/>
+    <circle cx="418" cy="148" r="12" fill="#7C3AED"/>
+    <circle cx="420" cy="362" r="12" fill="#00E5FF"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <path d="M256 70 394 126v107c0 87-55 162-138 207-83-45-138-120-138-207V126L256 70Z" fill="url(#shieldGradient)"/>
+    <path d="M256 108 360 151v82c0 66-39 122-104 161-65-39-104-95-104-161v-82l104-43Z" fill="#08111F" opacity="0.93"/>
+  </g>
+
+  <g fill="none" stroke="url(#innerGradient)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M205 224v-32c0-29 22-53 51-53s51 24 51 53v32" stroke-width="26"/>
+    <path d="M188 223h136a18 18 0 0 1 18 18v92a18 18 0 0 1-18 18H188a18 18 0 0 1-18-18v-92a18 18 0 0 1 18-18Z" stroke-width="18"/>
+  </g>
+
+  <g fill="#EAFBFF">
+    <path d="M227 264h26v22l35-22h34l-45 31 50 43h-38l-36-31v31h-26v-74Z"/>
+    <path d="M198 264h25l-28 36 31 38h-27l-17-22-17 22h-27l31-38-28-36h25l16 20 16-20Z" opacity="0.96"/>
+  </g>
+
+  <circle cx="256" cy="292" r="10" fill="#08111F" opacity="0.65"/>
+  <path d="M256 301v26" stroke="#08111F" stroke-width="9" stroke-linecap="round" opacity="0.65"/>
+</svg>
