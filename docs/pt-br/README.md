@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="../../assets/brand/cryptkx-logo-horizontal.svg" alt="Logo horizontal do cryptKX" width="520">
+
 # cryptKX
 
 ![C++](https://img.shields.io/badge/c++-%236f42c1.svg?style=flat&logo=c%2B%2B&logoColor=white) ![QML](https://img.shields.io/badge/QML-%2341CD52.svg?style=flat&logo=qt&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=flat&logo=cmake&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4OCA4OCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMTIuNCAzNiA3LjV2MzQuOEgwVjEyLjR6bTQwLTUuNUw4OCAwdjQyLjNINDBWNi45ek0wIDQ2LjNoMzZ2MzQuOEwwIDc2LjJWNDYuM3ptNDAgMGg0OFY4OGwtNDgtNi43di0zNXoiLz48L3N2Zz4%3D)
@@ -102,6 +104,7 @@ Essa é a estrutura do projeto atual:
 - `src/core`: lógica pura de geração de senhas, independente de Qt e de acesso ao clipboard;
 - `src/app`: controller Qt que adapta chamadas do QML para o gerador do core e para o clipboard;
 - `src/qml`: interface de usuário Qt Quick/QML;
+- `assets/brand`: assets vetoriais da marca, incluindo a logo horizontal e o ícone do app;
 - `tests`: testes do core registrados com CTest;
 - `cmake`: módulos auxiliares do CMake, incluindo descoberta da libsodium;
 - `docs/`: documentação do projeto em inglês e português.
