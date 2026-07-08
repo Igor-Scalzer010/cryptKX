@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/brand/cryptkx-logo-horizontal.svg" alt="cryptKX horizontal logo" width="520">
+
 # cryptKX
 
 ![C++](https://img.shields.io/badge/c++-%236f42c1.svg?style=flat&logo=c%2B%2B&logoColor=white) ![QML](https://img.shields.io/badge/QML-%2341CD52.svg?style=flat&logo=qt&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=flat&logo=cmake&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4OCA4OCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMTIuNCAzNiA3LjV2MzQuOEgwVjEyLjR6bTQwLTUuNUw4OCAwdjQyLjNINDBWNi45ek0wIDQ2LjNoMzZ2MzQuOEwwIDc2LjJWNDYuM3ptNDAgMGg0OFY4OGwtNDgtNi43di0zNXoiLz48L3N2Zz4%3D)
@@ -102,6 +104,7 @@ This is the current project layout:
 - `src/core`: pure password-generation logic, independent of Qt and clipboard access.
 - `src/app`: Qt controller that adapts QML calls to the core generator and clipboard.
 - `src/qml`: Qt Quick/QML user interface.
+- `assets/brand`: vector brand assets, including the horizontal logo and app icon.
 - `tests`: core tests registered with CTest.
 - `cmake`: CMake helper modules, including libsodium discovery.
 - `docs/`: supporting project notes in English and Brazilian Portuguese.
