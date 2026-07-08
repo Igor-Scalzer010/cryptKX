@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">cryptKX horizontal logo</title>
+  <desc id="desc">A horizontal cryptKX logo with a cryptographic shield icon, lock motif, circuit traces, and a bright cyber-security wordmark.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0C1A2E"/>
+      <stop offset="0.55" stop-color="#08111F"/>
+      <stop offset="1" stop-color="#050913"/>
+    </linearGradient>
+    <linearGradient id="brandGradient" x1="100" y1="42" x2="314" y2="314" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="0.48" stop-color="#18F2B2"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="wordmarkGradient" x1="420" y1="75" x2="900" y2="278" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#DDF9FF"/>
+      <stop offset="1" stop-color="#8CF5FF"/>
+    </linearGradient>
+    <linearGradient id="kxGradient" x1="875" y1="100" x2="1075" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#18F2B2"/>
+      <stop offset="0.45" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#9B5CFF"/>
+    </linearGradient>
+    <filter id="brandGlow" x="-60%" y="-60%" width="220%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.00 0 0 0 0 0.82 0 0 0 0 1.00 0 0 0 0.42 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#17304A" stroke-width="1" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="72" fill="url(#bgGradient)"/>
+  <rect width="1280" height="360" rx="72" fill="url(#grid)" opacity="0.5"/>
+
+  <g opacity="0.54" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M54 96h74m-30 0v58m1050 62h76m-35 0v-62M1040 92h102m-48 0v52M76 276h88m-38 0v-54" stroke="#00E5FF" stroke-width="8"/>
+    <circle cx="54" cy="96" r="9" fill="#00E5FF"/>
+    <circle cx="76" cy="276" r="9" fill="#18F2B2"/>
+    <circle cx="1224" cy="216" r="9" fill="#7C3AED"/>
+    <circle cx="1142" cy="92" r="9" fill="#00E5FF"/>
+  </g>
+
+  <g transform="translate(84 42) scale(0.54)" filter="url(#brandGlow)">
+    <path d="M256 70 394 126v107c0 87-55 162-138 207-83-45-138-120-138-207V126L256 70Z" fill="url(#brandGradient)"/>
+    <path d="M256 108 360 151v82c0 66-39 122-104 161-65-39-104-95-104-161v-82l104-43Z" fill="#08111F" opacity="0.93"/>
+    <g fill="none" stroke="#DDF9FF" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M205 224v-32c0-29 22-53 51-53s51 24 51 53v32" stroke-width="26"/>
+      <path d="M188 223h136a18 18 0 0 1 18 18v92a18 18 0 0 1-18 18H188a18 18 0 0 1-18-18v-92a18 18 0 0 1 18-18Z" stroke-width="18"/>
+    </g>
+    <g fill="#EAFBFF">
+      <path d="M227 264h26v22l35-22h34l-45 31 50 43h-38l-36-31v31h-26v-74Z"/>
+      <path d="M198 264h25l-28 36 31 38h-27l-17-22-17 22h-27l31-38-28-36h25l16 20 16-20Z" opacity="0.96"/>
+    </g>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Roboto, Arial, sans-serif">
+    <text x="380" y="188" font-size="108" font-weight="800" letter-spacing="-5" fill="url(#wordmarkGradient)">crypt</text>
+    <text x="660" y="188" font-size="108" font-weight="900" letter-spacing="-3" fill="url(#kxGradient)">KX</text>
+    <text x="386" y="238" font-size="25" font-weight="650" letter-spacing="8" fill="#89F3FF" opacity="0.88">SECURE PASSWORD GENERATOR</text>
+  </g>
+
+  <path d="M379 264h450" stroke="#17304A" stroke-width="2" stroke-linecap="round"/>
+  <path d="M379 264h190" stroke="#18F2B2" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+</svg>
