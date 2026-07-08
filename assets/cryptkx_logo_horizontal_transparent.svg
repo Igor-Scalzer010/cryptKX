@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="520" viewBox="0 0 1800 520" role="img" aria-labelledby="title desc">
+<title id="title">cryptKX horizontal transparent logo</title>
+<desc id="desc">Minimal horizontal cryptKX logo for dark backgrounds.</desc>
+<g transform="translate(145 48) scale(0.82)">
+
+<g id="cryptkx-mark">
+  <path d="M256 58 C314 86 363 94 416 99 V236 C416 338 349 410 256 458 C163 410 96 338 96 236 V99 C149 94 198 86 256 58 Z"
+        fill="#111820" stroke="#63e6be" stroke-width="22" stroke-linejoin="round"/>
+  <path d="M188 226 V190 C188 151 217 124 256 124 C295 124 324 151 324 190 V226"
+        fill="none" stroke="#f5f7fa" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="158" y="216" width="196" height="142" rx="22"
+        fill="#090d12" stroke="#f5f7fa" stroke-width="24"/>
+  <circle cx="256" cy="276" r="13" fill="#63e6be"/>
+  <path d="M256 290 V322" stroke="#63e6be" stroke-width="14" stroke-linecap="round"/>
+</g>
+</g>
+<text x="585" y="324" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="210" font-weight="800" letter-spacing="-7" fill="#f5f7fa">cryptKX</text>
+</svg>
